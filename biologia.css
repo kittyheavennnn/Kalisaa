@@ -83,7 +83,7 @@ header {
 }
 
 #menu-toggle:checked+.botao-disciplinas {
-    background-color: var(--marfin);
+    background-color: var(--terra);
 }
 
 .links-principais {
