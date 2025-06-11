@@ -70,7 +70,7 @@ main {
 }
 
 .disciplina a {
-    color: var(--marron-claro);
+    color: var(--verde-escuro);
     font-size: 5rem;
     text-decoration: none;
 }
