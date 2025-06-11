@@ -5,14 +5,15 @@
 }
 
 :root {
-    --preto: #000000;
-    --marinho: #493D9E;
-    --amarelo-claro: #FFF2AF;
-    --roxo-claro: #B2A5FF;
-    --verde: #99BC85;
-    --azul-claro: #E4EFE7;
-    --branco: #FFFFFF;
-    --marron-claro: #FAF1E6;
+     --verde-escuro: #031b08;
+    --marrom: #482c21;
+    --mostarda:#d07e0e;
+    --marron-claro: #615145;
+    --verde: #2f615e;
+    --marfin: #f8f8d6;
+    --marron-claro: #615145;
+    --amarel0-claro:#e9deb0;
+    --terra: #a73e2b;
 }
 
 body {
@@ -43,10 +44,10 @@ header {
     cursor: pointer;
     font-size: 2rem;
     background: none;
-    background-color: var(--preto);
+    background-color: var(--marrom);
     border: none;
     padding: 1.05rem 1.5rem;
-    color: var(--roxo-claro);
+    color: var(--terra);
 }
 
 #menu-toggle {
@@ -56,8 +57,8 @@ header {
 .lista-vertical {
     display: none;
     position: absolute;
-    background-color: var(--roxo-claro);
-    box-shadow: 0 2px 5px var(--marinho);
+    background-color: var(--terra);
+    box-shadow: 0 2px 5px var(--marfin);
     min-width: 190px;
     z-index: 1;
     left: 1rem;
@@ -65,7 +66,7 @@ header {
 }
 
 .lista-vertical a {
-    color: var(--preto);
+    color: var(--marrom);
     padding: 0.75rem 1rem;
     text-decoration: none;
     font-size: 2rem;
@@ -74,7 +75,7 @@ header {
 }
 
 .lista-vertical a:hover {
-    background-color: var(--amarelo-claro);
+    background-color: var(--marfin);
 }
 
 #menu-toggle:checked~.lista-vertical {
@@ -82,7 +83,7 @@ header {
 }
 
 #menu-toggle:checked+.botao-disciplinas {
-    background-color: var(--amarelo-claro);
+    background-color: var(--marfin);
 }
 
 .links-principais {
@@ -103,11 +104,11 @@ header {
 
 .lista-horizontal a {
     text-decoration: none;
-    color: var(--amarelo-claro);
+    color: var(--amarel0-claro);
 }
 
 .lista-horizontal a:hover {
-    color: var(--preto);
+    color: var(--marrom);
 }
 
 main {
@@ -117,7 +118,7 @@ main {
 
 h1 {
     text-align: center;
-    color: var(--verde);
+    color: var(--verde-escuro);
     margin-bottom: 60px;
     font-size: 4rem;
 }
@@ -132,7 +133,7 @@ h1 {
 }
 
 .conteudo {
-    background-color: var(--branco);
+    background-color: var(--marfin);
     border-radius: 10px;
     padding: 30px;
     width: 80%;
@@ -156,7 +157,7 @@ h1 {
 
 .conteudo p {
     line-height: 1.6;
-    color: var(--preto);
+    color: var(--marrom);
     margin-bottom: 20px;
     font-size: 1.8rem;
 }
@@ -168,14 +169,14 @@ h1 {
 
 .conteudo ul li {
     padding: 10px 0;
-    border-bottom: 1px solid var(--azul-claro);
+    border-bottom: 1px solid var(--verdeo);
     transition: transform 0.5s ease;
-    color: var(--preto);
+    color: var(--marrom);
 }
 
 .conteudo ul li:hover {
     transform: translateX(10px);
-    color: var(--verde);
+    color: var(--terra);
 }
 
 .home {
@@ -185,7 +186,7 @@ h1 {
 
 .home a {
     font-size: 2rem;
-    color: var(--verde);
+    color: var(--terra);
 }
 
 .conteudo ul li .block {
@@ -195,7 +196,7 @@ h1 {
 .conteudo ul li:hover .block {
     display: block;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--marron-claro);
     margin-bottom: 5px;
 }
 
@@ -205,7 +206,7 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: opacity 1.5s ease, max-height 1.5s ease;
-    color: var(--marinho);
+    color: var(--verde);
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -215,6 +216,6 @@ h1 {
     opacity: 1;
     max-height: 320px;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--verde-escuro);
     margin-bottom: 5px;
 }
