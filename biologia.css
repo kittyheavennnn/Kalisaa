@@ -75,7 +75,7 @@ header {
 }
 
 .lista-vertical a:hover {
-    background-color: var(--marfin);
+    background-color: var(--terra);
 }
 
 #menu-toggle:checked~.lista-vertical {
