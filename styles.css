@@ -5,14 +5,14 @@
 }
 
 :root{
+    --verde-escuro: #031b08;
     --marrom: #482c21;
-    --terra: #a73e2b;
     --mostarda:#d07e0e;
     --amarel0-claro:#e9deb0;
     --verde: #2f615e;
-    --verde-escuro: #031b08;
     --marfin: #f8f8d6;
     --marron-claro: #615145;
+    --terra: #a73e2b;
 }
 
 body{
