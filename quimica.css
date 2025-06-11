@@ -130,6 +130,7 @@ h1 {
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
+    right: 30px;
 }
 
 .conteudo {
